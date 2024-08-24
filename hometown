@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeTown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="header-title">Visit Torshov</h1>
+        <h3 class="header-subtitle">Enjoy culture and sports in this vibrant <br> close to the centre of Oslo.</h3>
+    </div>
+    <div class="activity-section">
+        <h3 class="activity-heading">Top three actvities to do at Torshov</h3>
+        <div class="activities">
+            <div><img class="theatre"src="/images/theatre (1).png" >
+            <h5>Attend a show or a <br>concert</h5>
+            <h6>The Torshov Theatre is a <br>great place to spend your <br>night out.</h6>
+            </div>
+            <div><img class="park"src="/images/park (1).png">
+            <h5>Go for a piknic in the <br>local park</h5>
+            <h6>The Torshov Park is perfect <br>for piknic,getting some tan,<br> or just chilling.</h6>
+            </div>
+            <div><img class="sports"src="/images/sports.png">
+            <h5>Play sports at the <br>Lilleborg field</h5>
+            <h6>Play volleyball,football,<br>basket ball or lift some <br>weights. </h6>
+            <div>
+            </div>
+            </div>  
+        </div>
+    </div>
+    <div class="tourist-guide">
+    <img class="id-picture"src="/images/per.png">
+    <div>
+    <h1>Your guide</h1>
+    <p><em>"I have lived in Torshov for <br>over 30 years, so I can 
+    <br>show you all of its best 
+    <br>parts and hidden secrets."</em></p>
+    <h3>Per Herald Borgen</h3>
+    </div>
+    </div>
+</body>
+</html>
+body{
+    margin: 0;
+}
+
+.header {
+    background-image: url(/images/torshov-image.png);
+    padding: 150px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.header-title {
+    background-color: #1D3557;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family:  Arial, sans-serif;
+    padding: 5px;
+}
+
+.header-subtitle {
+    background-color: #457B9D;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 2px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.activity-section {
+    background-color: #F1FAEE;
+    padding: 40px;
+    background-size: cover;
+    text-align: center;
+}
+
+.activity-heading {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+.theatre {
+    border-radius: 50%;
+}
+
+.park {
+    border-radius: 50%;
+}
+
+.sports {
+    border-radius: 50%;
+}
+
+h6 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.tourist-guide {
+    display: flex;
+    justify-content:center;
+    background-color: #A8DADC;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    border-bottom: solid 5px #1D3557;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.id-picture {
+    width: 180px;
+    height: 245px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
